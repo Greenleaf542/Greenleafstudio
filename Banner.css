@@ -37,6 +37,60 @@
     top: 386px;
     right: 262px;
 }
+.class_who {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 42px;
+    padding-bottom: 40px;
+    position: relative;
+    right: 20px;
+    letter-spacing: 2px;
+}
+.class_who p
+{
+    font-size: 14px;
+}
+.border_last
+{
+    border-bottom: 1.5px solid #66C231;
+    position: absolute;
+    right: 543px;
+    left: 498px;
+    top: 689px;
+}
+.border_last1
+{
+    border-bottom: 1.5px solid #66C231;
+    position: absolute;
+    right: 348px;
+    left: 309px;
+    top: 1324px;
+}
+.first_bg
+{
+    background: #66C231;
+    opacity: 80%;
+    width: 91%;
+    height: 245px;
+    margin-left: 49px;
+    padding: 5px;
+    /* position: absolute;
+    left: 374px; */
+    
+}
+.second_bg
+{
+    background: #66C231;
+    opacity: 80%;
+    width: 91%;
+    height: 245px;
+    margin-left: 49px;
+    padding: 5px;
+    margin-top: 10px;
+    /* position: absolute; */
+    
+}
+
 @media (max-width:1200px){
    
     .First-text
