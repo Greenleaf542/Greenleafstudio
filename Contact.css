@@ -40,11 +40,25 @@
 {
     font-size: 18px;
 }
+@media (max-width:1321px)
+{
+    .btn2
+    {
+        left: 595px;
+    }
+}
 @media (max-width:1200px)
 {
     .contact-text button
     {
         position: absolute;
         left: 510px;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .contact-text h3 
+    {
+        padding-left: 20px;
     }
 }
