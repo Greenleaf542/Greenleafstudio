@@ -128,3 +128,28 @@
     font-size: 14px;
     line-height: 1.6;
 }
+@media (max-width:1321px){
+    .heading img {
+        top: 583px;
+        left: 539px;
+    }
+    .box-bg
+    {
+        top: 951px;
+        left: 66px;
+    }
+    .box-bg1
+    {
+        top: 951px;
+        left: 467px;
+    }
+    .box-bg2
+    {
+        top: 951px;
+        left: 869px;
+    }
+    .btn1
+    {
+        top: 1060px;
+    }
+  }
