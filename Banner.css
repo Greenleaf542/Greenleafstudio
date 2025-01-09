@@ -91,6 +91,20 @@
     
 }
 
+@media (max-width:1321px){
+    .First-text {  
+        top: 230px;
+    }
+    .Middle-text
+    {
+        top: 225px;
+    }
+    .Last-text
+    {
+        top: 350px;
+        right: 240px;
+    }
+  }
 @media (max-width:1200px){
    
     .First-text
