@@ -69,6 +69,22 @@
     top: 1410px;
     color: #fff;
 }
+@media (max-width:1321px)
+{
+    .heading1 img 
+    {
+        top: 1143px;
+        left: 496px;
+    }
+    .Left-text-background
+    {
+        top: 1297px;
+    }
+    .Top p 
+    {
+        top: 1330px;
+    }
+}
 @media (max-width:1200px)
 {
     .Left-text-background{
