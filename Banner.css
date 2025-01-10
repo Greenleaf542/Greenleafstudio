@@ -69,11 +69,12 @@
 .first_bg
 {
     background: #66C231;
-    opacity: 80%;
+    opacity: 60%;
     width: 91%;
     height: 245px;
     margin-left: 49px;
     padding: 5px;
+    color: #fff;
     /* position: absolute;
     left: 374px; */
     
@@ -81,8 +82,9 @@
 .second_bg
 {
     background: #66C231;
-    opacity: 80%;
+    opacity: 60%;
     width: 91%;
+    color: #fff;
     height: 245px;
     margin-left: 49px;
     padding: 5px;
@@ -90,7 +92,6 @@
     /* position: absolute; */
     
 }
-
 @media (max-width:1321px){
     .First-text {  
         top: 230px;
