@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/Main.css">
     <link rel="stylesheet" href="/Header.css">
     <link rel="stylesheet" href="/Banner.css">
+    <link rel="stylesheet" href="/Footer.css">
     <style>
         .div1
         {
@@ -22,21 +23,50 @@
          grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
         }
         .box-meet
-{
+      {
     
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+.box-meet img
+{
+    width: 360px;
+    height: 360px;
 }
 .box-bg-meet p span
 {
     color: #66C231;
     font-size: 14px;
 }
-
+.btn5
+{
+    background: #66C231;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 14px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn5:hover
+{
+    box-shadow: 0px 5px 10px rgba(10, 10, 10, 0.2);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.bxs-right-arrow-circle
+{
+    font-size: 20px;
+}
     </style>
 </head>
 <body>
@@ -60,19 +90,22 @@
         </div>
       </div>
     <!--Banner end-->
-    <div>
-        <div class="class_who"><h4>what is <span style="color:#66C231;">green leaf studio ?</span></h4></div>
-        <div class="border_last"></div>
+   <!--Background with text start-->
+   <div>
+    <div class="class_who"><h4>what is <span style="color:#66C231;">green leaf studio ?</span></h4></div>
+    <div class="border_last"></div>
+   </div>
+   <div class="container">
+    <div class="first_bg">
+        <p>At <span>GREEN LEAF STUDIO</span>, we are a creative and innovative IT studio driven by a team of six talented individuals, each specializing in different areas of expertise. Together, we combine our diverse skills to offer a wide range of services, including website development, graphic design, and tailored IT solutions. Whether it’s crafting responsive and user-friendly websites, designing captivating visuals that bring brands to life, or delivering practical technical solutions, we are committed to turning your ideas into impactful digital experiences. Our collaborative approach and passion for technology ensure that every project we undertake is unique, results-driven, and built to inspire. Let’s work together to bring your vision to reality!
+        </p>
     </div>
-    <div class="container">
-        <div class="first_bg">
-            <p>At <span>GREEN LEAF STUDIO</span>, we are a creative and innovative IT studio driven by a team of six talented individuals, each specializing in different areas of expertise. Together, we combine our diverse skills to offer a wide range of services, including website development, graphic design, and tailored IT solutions. Whether it’s crafting responsive and user-friendly websites, designing captivating visuals that bring brands to life, or delivering practical technical solutions, we are committed to turning your ideas into impactful digital experiences. Our collaborative approach and passion for technology ensure that every project we undertake is unique, results-driven, and built to inspire. Let’s work together to bring your vision to reality!
-            </p>
-        </div>
-        <div class="second_bg">
-            <p>Our team at <span>GREEN LEAF STUDIO</span> is the backbone of our success, combining technical brilliance with seamless coordination. We are equipped with skilled front-end developers who specialize in creating visually stunning and user-friendly interfaces, ensuring exceptional user experiences. Our expert back-end developers power these designs with robust, scalable, and efficient solutions to bring functionality to life. Complementing our technical team is a strong management unit that ensures every project runs smoothly, meeting deadlines while maintaining the highest quality standards. Together, we operate as a well-rounded and cohesive team, turning ideas into polished, professional digital solutions that exceed expectations.   </p>
-        </div>
+    <div class="second_bg">
+        <p>Our team at <span>GREEN LEAF STUDIO</span> is the backbone of our success, combining technical brilliance with seamless coordination. We are equipped with skilled front-end developers who specialize in creating visually stunning and user-friendly interfaces, ensuring exceptional user experiences. Our expert back-end developers power these designs with robust, scalable, and efficient solutions to bring functionality to life. Complementing our technical team is a strong management unit that ensures every project runs smoothly, meeting deadlines while maintaining the highest quality standards. Together, we operate as a well-rounded and cohesive team, turning ideas into polished, professional digital solutions that exceed expectations.   </p>
     </div>
+   </div>
+   <!--Background with text End-->
+    <!--How we work start-->
     <div>
         <div class="class_who">
             <h4>How we<span style="color:#66C231;"> work</span> ?</h4>
@@ -83,6 +116,8 @@
             <img src="/background_image.webp" alt="">
         </div>
     </div>
+    <!--How we work End-->
+    <!--Meet our team start-->
     <div class="class_who">
         <h4 style="padding-top: 50px;">meet our<span style="color:#66C231;">talents</span></h4>
         <p>Meet the team that brings your ideas to life with skill, passion and precision.</p>
@@ -96,7 +131,7 @@
             </div>
         </div>
         <div class="box-meet">
-            <img src="/Graphic.jpg" alt="" />
+            <img src="/founder.webp" alt="" />
             <div class="box-bg-meet">
                 <h4>Shrawan Thakur</h4>
                 <p><span>CEO/Founder</span></p>
@@ -113,7 +148,7 @@
     </div>
     <div class="service-box-meet container" style="margin-top: 20px;">
         <div class="box-meet">
-            <img src="/Graphic.jpg" alt="" />
+            <img src="/samyog.webp" alt="" />
             <div class="box-bg-meet">
                 <h4>Samyog Pokheral</h4>
                 <p><span>Marketing Head</span></p>
@@ -127,7 +162,7 @@
             </div>
         </div>
         <div class="box-meet">
-            <img src="/Graphic.jpg" alt="" />
+            <img src="/Abinash.webp" alt="" />
             <div class="box-bg-meet">
                 <h4>Avinash Lamichhane</h4>
                 <p><span>Back-End Developer</span></p>
@@ -135,5 +170,69 @@
         </div>
         
     </div>
+    <!--Meet our team End-->
+    <!--Get started start-->
+    <div class="class_who">
+        <h4 style="padding-top: 50px;">Start your journey <br> with our<span style="color:#66C231;"> talented team</span></h4>
+        <div class="btn5">Get Started &nbsp; <i class='bx bxs-right-arrow-circle'></i></div>
+    </div>
+    <!--Get started End-->
+    <!--Footer start-->
+    <div class="footer-background">
+
+        <div class="container Second-container">
+          <div>
+              <h4>green leaf studio</h4>
+              <ul>
+                  <li><p><i class='bx bx-current-location'></i>kathmandu, Nepal</p></li>
+                  <li><p><i class='bx bxs-phone'></i>+977 984117180</p></li>
+                  <li><p><i class='bx bxl-gmail' ></i>mail@greenleafstudio</p></li>
+              </ul>
+          </div>
+          <div>
+              <h3>company</h3>
+              <ul>
+                  <li>Home</li>
+                  <li>About us</li>
+                  <li>Services</li>
+                  <li>Contact Us</li>
+              </ul>
+          </div>
+          <div>
+              <h3>What We Do</h3>
+              <ul>
+                  <li><p>website development</p></li>
+                  <li><p>Graphic designing</p></li>
+                  <li><p>Social media marketing</p></li>
+                  <li><p>Video Editing</p></li>
+              </ul>
+          </div>
+          <div class="link-hover">
+              <h3>Connect With Us</h3>
+              <ul>
+                  <li>Facebook</li>
+                  <li>Instgram</li>
+                  <li>Twitter x</li>
+                  <li>Linkedin</li>
+                  <!-- {/* location :<i class='bx bx-current-location'></i>
+                  phone: <i class='bx bxs-phone'></i>
+                  mail:<i class='bx bxl-gmail' ></i>
+                  facebook: <i class='bx bxl-facebook' ></i>
+                  instgram: <i class='bx bxl-instagram-alt' ></i>
+                  twitter:<i class='bx bxl-twitter' ></i>
+                  linkdlin:<i class='bx bxl-linkedin' ></i> */} -->
+              </ul>
+          </div>
+        </div>
+        <div class="last-footer-text container">
+          <div class="left-side">
+              <p>Copyright © 2024, <span>Green Leaf Studio</span></p>
+          </div>
+          <div class="right-side">
+              <p>privacy policy data policy</p>
+          </div>
+        </div>
+    </div>
+    <!--Footer End-->
 </body>
 </html>
