@@ -92,41 +92,21 @@
     /* position: absolute; */
     
 }
-@media (max-width:1321px){
-    .First-text {  
-        top: 230px;
+@media (min-width:1024px) and (max-width:1028px){ 
+    .First-text
+    {
+        top: 285px;
+        left: 111px;
     }
     .Middle-text
     {
-        top: 225px;
+        top: 270px;
+        left: 114px;
     }
     .Last-text
     {
-        top: 350px;
-        right: 240px;
+        
+        top: 386px;
+        right: 136px;
     }
-  }
-@media (max-width:1200px){
-   
-    .First-text
-{
-    font-size: 20px;
-    position: absolute;
-    top: 190px;
-    left: 255px;
 }
-.Middle-text
-{
-    font-size: 100px;
-    position: absolute;
-    top: 175px;
-    left: 258px;
-}
-.Last-text
-{
-    font-size: 20px;
-    position: absolute;
-    top: 280px;
-    right: 300px;
-}
-  }
