@@ -69,36 +69,25 @@
     top: 1410px;
     color: #fff;
 }
-@media (max-width:1321px)
+@media (min-width:1024px) and (max-width:1028px)
 {
-    .heading1 img 
-    {
-        top: 1143px;
-        left: 496px;
-    }
-    .Left-text-background
-    {
-        top: 1297px;
-    }
-    .Top p 
-    {
-        top: 1330px;
-    }
-}
-@media (max-width:1200px)
+    .heading1 img
 {
-    .Left-text-background{
-        width: 72%;
-        position: absolute;
-        left: 282px;
-        top: 1200px;
-    }
-    .Top p
-{
-    position: absolute;
-    left: 300px;
-    right: 100px;
-    top: 1220px;
     
+    top: 1199px;
+    left: 340px;
+}
+.Left-text-background
+{
+    width: 60%;
+    left: 356px;
+    top: 1356px;
+}
+.Top p
+{
+    left: 392px;
+    right: 90px;
+    top: 1379px;
+    color: #fff;
 }
 }
