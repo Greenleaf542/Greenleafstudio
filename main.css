@@ -3,6 +3,9 @@
     font-family: "Poppins", serif;
     text-decoration: none;    
 }
+body{
+    overflow-x: hidden;
+}
 .banner{
     background-color:rgba(102, 194, 49, .3) ;
     width: 100%;
