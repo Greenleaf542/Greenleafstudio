@@ -8,6 +8,8 @@
   max-width: 1920px;
   margin: auto;
 }
+
+
 .banner {
   background-color: rgba(102, 194, 49, 0.3);
   width: 100vw;
@@ -233,6 +235,20 @@
   background-color: white;
   color: #308e05;
   transition: 0.4s;
+}
+@media(max-width:320Px){
+  body { 
+    display: grid; 
+    place-items: center; 
+    width: 100vw; 
+    height: 100vh; 
+  }
+  .navdiv img
+  {
+    position: absolute;
+    left: 19px;
+    top: 15px;
+  }
 }
 
 
